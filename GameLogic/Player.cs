@@ -1,0 +1,26 @@
+﻿
+namespace GameLogic
+{
+    public class Player
+    {
+        private string m_Name;
+        private int m_Score;
+
+        public Player(string i_Name)
+        {
+            m_Name = i_Name;
+            m_Score = 0;
+        }
+
+        public string Name
+        {
+            get { return m_Name; }
+        }
+
+        public int Score
+        {
+            get { return m_Score; }
+            set { m_Score = value; }
+        }
+    }
+}
